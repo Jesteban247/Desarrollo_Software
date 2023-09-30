@@ -1,0 +1,50 @@
+# Ver la versión de Docker
+docker --version
+
+# Ver información del sistema Docker
+docker info
+
+# Eliminar Todo
+docker rm -f $(docker ps -aq)
+
+# Descargar una imagen de Docker desde Docker Hub
+docker pull nombre_de_la_imagen
+
+# Listar todas las imágenes locales
+docker images
+
+# Crear y ejecutar un contenedor a partir de una imagen
+docker run -d --name nombre_del_contenedor nombre_de_la_imagen
+
+# Listar todos los contenedores en ejecución
+docker ps
+
+# Listar todos los contenedores (en ejecución y detenidos)
+docker ps -a
+
+# Detener un contenedor en ejecución
+docker stop nombre_del_contenedor
+
+# Iniciar un contenedor detenido
+docker start nombre_del_contenedor
+
+# Eliminar un contenedor
+docker rm nombre_del_contenedor
+
+# Eliminar una imagen
+docker rmi nombre_de_la_imagen
+
+# Ver los registros de un contenedor
+docker logs nombre_del_contenedor
+
+# Ejecutar un comando en un contenedor en ejecución (por ejemplo, una terminal bash)
+docker exec -it nombre_del_contenedor comando
+
+# Eliminar todos los contenedores detenidos
+docker container prune
+
+# Eliminar todas las imágenes no utilizadas
+docker image prune
+
+# Eliminar todos los volúmenes no utilizados
+docker volume prune

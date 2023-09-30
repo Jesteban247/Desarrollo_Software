@@ -1,0 +1,12 @@
+show databases;
+CREATE DATABASE sakila;
+USE sakila;
+
+# Ejecuta los scripts SQL de "Sakila": Para crear las tablas y cargar los datos de "Sakila", 
+# ejecuta los siguientes comandos en orden:
+
+# Primero, ejecuta el script de creación de tablas de "Sakila"
+SOURCE /mysql-sakila-schema.sql;
+
+# Luego, ejecuta el script de inserción de datos de "Sakila" 
+SOURCE /mysql-sakila-insert-data.sql;

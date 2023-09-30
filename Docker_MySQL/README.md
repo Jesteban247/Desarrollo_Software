@@ -43,4 +43,14 @@ Te pedirá que introduzcas la contraseña que se puso en el paso anterior.
 # Ejemplo
 
 - [create_mysql_container.sh](create_mysql_container.sh): Este script se utiliza para crear un contenedor, pues cambiar su nombre y contraseña.
+
+- Se usa la base de datos: https://github.com/jOOQ/sakila/tree/main
+Se guarda la información en: [mysql-sakila-db](mysql-sakila-db)
+
+- [sakila.sh](sakila.sh): Este script se utiliza para cargar la base de datos de sakila al contenedor.
+
 - [run_mysql_container.sh](run_mysql_container.sh): Este script se utiliza para visualizar los contenedores existentes y poder usar el que se necesita.
+
+- [Use_sakila.txt](Use_sakila.txt): Este script se utiliza para cargar los datos a MySQL.
+
+- [sql_queries](sql_queries): Esta carpeta guarda las consultas a ejecutar.

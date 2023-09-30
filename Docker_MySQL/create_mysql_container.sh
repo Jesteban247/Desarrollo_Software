@@ -13,7 +13,8 @@ tag="latest"
 root_password="secret"
 
 # Crear y ejecutar el contenedor MySQL
-docker run --name $container_name -e MYSQL_ROOT_PASSWORD=$root_password -d mysql:$tag
+#docker run --name $container_name -e MYSQL_ROOT_PASSWORD=$root_password -d mysql:$tag
+docker run --name $container_name -e MYSQL_ROOT_PASSWORD=$root_password -v $(pwd)/sql_queries:/sql_queries -d mysql:$tag
 
 # Paso 2: Asegúrate de dar permisos de ejecución al archivo. 
 # Puedes hacerlo con el siguiente comando en la terminal:

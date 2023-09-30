@@ -1,0 +1,2 @@
+Ejecutar una consulta:
+source /sql_queries/<name>.sql
