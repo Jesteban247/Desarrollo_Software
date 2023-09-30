@@ -42,5 +42,5 @@ Te pedirá que introduzcas la contraseña que se puso en el paso anterior.
 
 # Ejemplo
 
-Se encuentra en el archivo: create_mysql_container.sh
-Se encuentra en el archivo: run_mysql_container.sh
+- [create_mysql_container.sh](create_mysql_container.sh): Este script se utiliza para crear un contenedor, pues cambiar su nombre y contraseña.
+- [run_mysql_container.sh](run_mysql_container.sh): Este script se utiliza para visualizar los contenedores existentes y poder usar el que se necesita.
