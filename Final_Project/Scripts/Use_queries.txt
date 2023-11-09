@@ -1,0 +1,9 @@
+Ejecutar una consulta:
+
+show databases;
+
+source /Scripts/Load_Data.sql
+source /Scripts/Data_warehouse.sql
+source /Scripts/Tables.sql
+
+DROP DATABASE DATAWH;
