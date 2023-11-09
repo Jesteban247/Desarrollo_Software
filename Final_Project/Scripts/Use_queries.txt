@@ -7,3 +7,7 @@ source /Scripts/Data_warehouse.sql
 source /Scripts/Tables.sql
 
 DROP DATABASE DATAWH;
+
+USE ADW;
+
+source /Scripts/ETL/Product.sql
