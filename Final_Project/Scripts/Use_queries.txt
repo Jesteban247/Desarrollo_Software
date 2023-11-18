@@ -3,11 +3,16 @@ Ejecutar una consulta:
 show databases;
 
 source /Scripts/Load_Data.sql
+
+
+DROP DATABASE IF EXISTS DATAWH;
+
 source /Scripts/Data_warehouse.sql
-source /Scripts/Tables.sql
 
-DROP DATABASE DATAWH;
 
-USE ADW;
+source /Scripts/Queries/Sales.sql
 
-source /Scripts/ETL/Product.sql
+source /Scripts/Queries/Human_Resources.sql
+
+
+
