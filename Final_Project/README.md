@@ -33,4 +33,4 @@ Asigna permisos de ejecución con:
 3. **Ejecuta el Script:**
 Para correr el contenedor, ejecuta:
 `./run_mysql_container.sh`
-Esto mostrará una lista de contenedores. Elige el contenedor Final e ingresa la contraseña secret. Si no funciona a la primera, vuelvelo a intentar eso pasa mientras se cargan los procesos, a la tercera ya se debe poder ingresar a la consola de MySQL.
+Esto mostrará una lista de contenedores. Elige el contenedor: "Final" e ingresa la contraseña: "secret". Si no funciona a la primera, vuelvelo a intentar eso pasa mientras se cargan los procesos, a la tercera ya se debe poder ingresar a la consola de MySQL.
